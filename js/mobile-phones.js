@@ -108,6 +108,12 @@ const mobilePhones = [
 ];
 
 // Opgave 4 – Opret variablen phonesContainer
+    // Her opretter jeg en variabel som henter eller peger på id="exhibition-container
+// Opgave 5 – Opret funktionen displayPhones(phoneList)
 const phonesContainer = document.querySelector("#phones-container");
+function displayPhones(phoneList) {
+    
+}
+
 
 

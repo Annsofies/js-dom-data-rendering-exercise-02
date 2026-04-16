@@ -11,7 +11,7 @@ const mobilePhones = [
     brandmodel: "iPhone 15",
     color: "black",
     price: 3999,
-    memory: "128 GB"
+    memory: "128 GB",
     img: "img/iphone-15-128-black.webp",
   },
     {
@@ -106,3 +106,8 @@ const mobilePhones = [
     },
 
 ];
+
+// Opgave 4 – Opret variablen phonesContainer
+const phonesContainer = document.querySelector("#phones-container");
+
+

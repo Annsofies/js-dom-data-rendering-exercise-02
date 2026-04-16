@@ -129,9 +129,10 @@ function displayPhones(phoneList) {
           <li>${phone.price}</li>
         </ul>
         <figure>
+            img src="${phone.img}" alt="${phone.brandmodel}">
+            <figcaption>${phone.brandmodel}</figcaption>
         </figure>
       </article>
-    
   `});
     
 }

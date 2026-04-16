@@ -112,6 +112,7 @@ const mobilePhones = [
 // Opgave 5 – Opret funktionen displayPhones(phoneList)
 // Opgave 6 – Tøm containeren før telefonerne vises
 // Opgave 7 – Brug forEach() til at gennemløbe telefonerne
+// Opgave 8 – Brug innerHTML og template literals
 
 const phonesContainer = document.querySelector("#phones-container");
 function displayPhones(phoneList) {
@@ -119,9 +120,19 @@ function displayPhones(phoneList) {
   // nu opretter jeg en html struktur, hvor der skal være data fra min js-datastruktur
  phoneList.forEach(phone) => {
  phonesContainer.innerHTML += `
-
+    <article>
+        <h2>${phone.brandname}</h2>
+        <h4>${phone.brandmodel}</h4>
+        <ul>
+          <li>${phone.color}</li>
+          <li>${phone.memory}</li>
+          <li>${phone.price}</li>
+        </ul>
+        <figure>
+        </figure>
+      </article>
     
-  });
+  `});
     
 }
 

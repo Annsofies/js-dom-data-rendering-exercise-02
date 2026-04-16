@@ -110,9 +110,10 @@ const mobilePhones = [
 // Opgave 4 – Opret variablen phonesContainer
     // Her opretter jeg en variabel som henter eller peger på id="exhibition-container
 // Opgave 5 – Opret funktionen displayPhones(phoneList)
+// Opgave 6 – Tøm containeren før telefonerne vises
 const phonesContainer = document.querySelector("#phones-container");
 function displayPhones(phoneList) {
-    
+ phonesContainer.innerHT;
 }
 
 

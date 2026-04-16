@@ -111,10 +111,17 @@ const mobilePhones = [
     // Her opretter jeg en variabel som henter eller peger på id="exhibition-container
 // Opgave 5 – Opret funktionen displayPhones(phoneList)
 // Opgave 6 – Tøm containeren før telefonerne vises
+// Opgave 7 – Brug forEach() til at gennemløbe telefonerne
+
 const phonesContainer = document.querySelector("#phones-container");
 function displayPhones(phoneList) {
  phonesContainer.innerHT;
+  // nu opretter jeg en html struktur, hvor der skal være data fra min js-datastruktur
+ phoneList.forEach(phone) => {
+ phonesContainer.innerHTML += `
+
+    
+  });
+    
 }
-
-
 
